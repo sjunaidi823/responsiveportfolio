@@ -1,0 +1,240 @@
+body {
+     width: 960px;
+     margin: 0 auto;
+     background: url("...images/polka-dots.png") repeat;
+     font-family: 'Arial', "Helvetica Neue", Helvetica, sans-serif;
+}
+
+header {
+    position: relative;
+    left: 0px;
+    width: 80%;
+    padding: 40px;
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 6px solid white;
+    
+    
+}
+
+.links {
+    float:right;
+    padding: 30px;
+    position: absolute;
+    color: #777777;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    font-size: 18px;
+    left: 950px;
+    top: 50px;
+  
+
+}
+
+.float {
+    float: right;
+    
+
+    
+    
+
+}
+
+
+h1 {
+    float:left;
+    color: #ffffff;
+    background: #4aaaa5;
+    margin: 0 auto ;
+    padding: 20px;
+    font-size: 25px;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    left: 650px;
+    top: 10px;
+    width: 280px;
+    padding: 30px;
+    margin: 0 auto;
+    text-align: center;
+ 
+  
+    
+}
+
+h2 {
+    color: #4aaaa5;
+    font-size: 30px;
+    float: left;
+    position: relative;
+    
+}
+
+h3 {
+    float: right;
+    font-size: 18px;
+
+}
+
+.wrapper {
+    height: 500px;
+    width: 650px;
+    background: white;
+    padding: 20px;
+    border: 10px solid #dddddd;
+    margin: left;
+    font-family: 'Arial', "Helvetica Neue", Helvetica, sans-serif;
+    float: left;
+ 
+ 
+}
+
+.work {
+    position: relative;
+    float: left;
+    width: 274px;
+    margin: 20px 0 25px;
+    overflow: auto;
+  }
+  
+  .work:nth-child(even) {
+    margin-right: 40px;
+  }
+  
+  .work img {
+    width: 20%;
+    border: 0 none;
+    opacity: 0.8;
+  }
+  
+  .work h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+  }
+  
+  .auth-image {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+  }
+
+#connect {
+    position: fixed;
+    float:right;
+    left: 950px;
+    top: 150px;
+    padding: 20px;
+    margin: 10px;
+    width: 175px;
+    font-size: 26px;
+    color: #4aaaa5;
+    border: 6px solid #dddddd;
+    text-align: Center;
+    background: white;
+}
+
+p img {
+    float: left;
+    border: 5px solid teal;
+    padding: 10px;
+    margin-right: 10px;
+}
+   
+   
+p { 
+    font-size: 14px;
+    line-height: 25px;
+    text-indent: 20px;
+    font-family: 'Arial', "Helvetica Neue", Helvetica, sans-serif;
+    padding: 10px;
+}
+ 
+   
+.footer {
+    border: 05px solid teal;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    font-family: 'Arial', "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+#contact-form ul {
+    margin-bottom: 20px;
+  }
+  
+  #contact-form li {
+    margin-bottom: 10px;
+  }
+  
+  label,
+  input[type=text],
+  input[type=email],
+  textarea {
+    display: block;
+    width: 95%;
+  }
+  
+  input[type=text],
+  input[type=email],
+  textarea {
+    height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+  }
+  
+  textarea {
+    height: 200px;
+  }
+  
+  input[type=submit] {
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    background: #4aaaa5;
+    border: 0 none;
+  }
+
+  @media screen and (max-width: 980px) {
+    .links {
+        left: 475px;
+
+    }
+
+    #connect {
+        left: 700px;
+
+    }
+
+}
+
+ @media screen and (max-width: 768px) {
+    #connect {
+        left: 500px;
+    }
+
+    body {
+        left: 300px;
+    }
+
+}
+@media screen and (max-width: 640px) {
+   #connect {
+      left: 400px;
+   }
+}
